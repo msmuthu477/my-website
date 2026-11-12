@@ -1,22 +1,14 @@
-# 🚀 Shan Portfolio
+# 🚀 Muthu Portfolio
 
 <div align="center">
 
 ### Modern • Fast • Responsive • Creative
 
-A premium personal portfolio built with modern frontend technologies, smooth animations, and a clean UI to showcase projects, skills, and experience.
+A personal portfolio website built with modern frontend technologies, smooth animations and a clean UI to showcase my skills, projects and experience.
 
-<p>
-  <a href="https://shan-portfolioo.netlify.app">
-    <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Website-00C853?style=for-the-badge" />
-  </a>
-  <a href="https://github.com/shajith23/shan-portfolio">
-    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" />
-  </a>
-  <img src="https://img.shields.io/github/stars/shajith23/shan-portfolio?style=for-the-badge" />
-  <img src="https://img.shields.io/github/forks/shajith23/shan-portfolio?style=for-the-badge" />
-  <img src="https://img.shields.io/github/license/shajith23/shan-portfolio?style=for-the-badge" />
-</p>
+[![Live Demo](https://img.shields.io/badge/LIVE%20DEMO-VISIT%20WEBSITE-brightgreen?style=for-the-badge)](https://ms-portfolio-1734.netlify.app/)
+[![GitHub](https://img.shields.io/badge/GITHUB-REPOSITORY-blue?style=for-the-badge&logo=github)](https://github.com/msmuthu477/my-website)
+![License](https://img.shields.io/badge/LICENSE-MIT-lightgrey?style=for-the-badge)
 
 </div>
 
@@ -24,380 +16,162 @@ A premium personal portfolio built with modern frontend technologies, smooth ani
 
 ## ✨ Preview
 
-> A modern portfolio crafted to leave a strong first impression with smooth animations, responsive layouts, elegant typography, and a premium user experience.
+> A modern portfolio crafted to leave a strong first impression with smooth animations, responsive layouts, elegant typography and a premium user experience.
 
-### 🔗 Live Website
+## 🔗 Live Website
 
-**https://shan-portfolioo.netlify.app**
+https://ms-portfolio-1734.netlify.app/
 
-### 💻 GitHub Repository
+## 💻 GitHub Repository
 
-**https://github.com/shajith23/shan-portfolio**
-
----
-
-# 📖 Table of Contents
-
-- Overview
-- Features
-- Tech Stack
-- Folder Structure
-- Installation
-- Run Locally
-- Deployment
-- Customization
-- Performance
-- Browser Support
-- Future Improvements
-- Contributing
-- License
-- Contact
+https://github.com/msmuthu477/my-website
 
 ---
 
-# 🚀 Overview
+## 📖 Table of Contents
 
-Shan Portfolio is a modern personal portfolio website built to showcase projects, skills, achievements, and services.
-
-The website focuses on:
-
-- Premium UI/UX
-- Fast performance
-- Responsive layouts
-- Smooth animations
-- Interactive components
-- SEO-friendly structure
-- Clean and maintainable code
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Folder Structure](#-folder-structure)
+- [Run Locally](#-run-locally)
+- [Deployment](#-deployment)
+- [Customization](#-customization)
+- [Performance](#-performance)
+- [Browser Support](#-browser-support)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
 
 ---
 
-# ✨ Features
+## 📌 Overview
 
-## 🎯 Modern UI
+This is my personal portfolio website. It presents who I am, the services I offer, my featured projects and how to contact me. It is fully responsive and works on mobile, tablet and desktop.
 
-- Premium design
+## 🎯 Features
+
+### Design
+- Premium, modern design
 - Dark aesthetic
 - Mobile-first layout
 - Responsive navigation
 - Interactive sections
 
----
-
-## ⚡ Performance
-
-- Lightweight
+### Performance
+- Lightweight pages
 - Optimized assets
 - Fast loading
 - Smooth scrolling
-- Lazy loading ready
 
----
-
-## 🎨 Animations
-
-- GSAP animations
+### Animations
 - Scroll animations
-- Hover effects
-- Counter animations
 - Smooth transitions
+- Animated counters
+- Image and video popups
 
----
-
-## 📱 Fully Responsive
-
-Works perfectly on:
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile
-
----
-
-## 📂 Sections
-
-- Hero
-- About
-- Skills
-- Experience
-- Services
-- Portfolio
-- Testimonials
-- Contact
-- Footer
-
----
-
-# 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 | Technology | Purpose |
-|------------|----------|
+| ---------- | ------- |
 | HTML5 | Structure |
 | CSS3 | Styling |
-| Bootstrap 5 | Responsive Grid |
+| Bootstrap 5 | Responsive grid |
 | JavaScript | Interactivity |
 | jQuery | Plugins |
 | GSAP | Animations |
 | Swiper.js | Sliders |
-| AOS | Scroll Animations |
-| Magnific Popup | Image & Video Popups |
-| PureCounter | Animated Counters |
+| AOS | Scroll animations |
+| Magnific Popup | Image and video popups |
+| PureCounter | Animated counters |
 
----
+## 📁 Folder Structure
 
-# 📁 Folder Structure
-
-```text
-shan-portfolio/
-│
+```
+my-website/
 ├── index.html
+├── portfolio-details.html
 ├── README.md
-│
-├── assets/
-│
-├── css/
-├── js/
-├── images/
-├── fonts/
-└── icons/
+├── .gitignore
+└── assets/
+    ├── css/
+    ├── js/
+    └── images/
 ```
 
----
+## ▶️ Run Locally
 
-# 🚀 Installation
+### Method 1: Open directly
+Open `index.html` in your browser.
 
-Clone the repository
+### Method 2: VS Code Live Server
+1. Install the **Live Server** extension in VS Code.
+2. Right click `index.html`.
+3. Click **Open with Live Server**.
 
-```bash
-git clone https://github.com/shajith23/shan-portfolio.git
-```
-
-Open project
-
-```bash
-cd shan-portfolio
-```
-
----
-
-# ▶ Run Locally
-
-### Method 1
-
-Open
-
-```
-index.html
-```
-
----
-
-### Method 2
-
-Using VS Code
-
-Install
-
-```
-Live Server
-```
-
-Right Click
-
-```
-Open with Live Server
-```
-
----
-
-### Method 3
-
-Python
-
+### Method 3: Python server
 ```bash
 python3 -m http.server 8000
 ```
+Then visit `http://localhost:8000`
 
-Visit
+## 🌐 Deployment
 
-```
-http://localhost:8000
-```
-
----
-
-# 🌐 Deployment
-
-## GitHub Pages
-
+### GitHub Pages
 ```bash
 git init
-
 git add .
-
-git commit -m "Initial Commit"
-
+git commit -m "Initial commit"
 git branch -M main
-
-git remote add origin https://github.com/shajith23/shan-portfolio.git
-
+git remote add origin https://github.com/msmuthu477/my-website.git
 git push -u origin main
 ```
+Then go to **Settings → Pages** and select the `main` branch.
 
-Enable
+### Netlify
+Drag and drop the project folder on [app.netlify.com](https://app.netlify.com), or connect this GitHub repository.
 
-```
-Settings
+## 🎨 Customization
 
-↓
+You can customize these parts inside `index.html` and `assets/`:
 
-Pages
-
-↓
-
-Deploy from main branch
-```
-
----
-
-## Netlify
-
-Drag & Drop
-
-OR
-
-Connect GitHub Repository
-
----
-
-## Vercel
-
-Import GitHub Repository
-
-Deploy
-
-Done ✅
-
----
-
-# 🎨 Customization
-
-Update
-
-- Name
 - Logo
 - Images
-- Portfolio Projects
-- Contact Information
+- Portfolio projects
+- Contact information
 - Resume
-- Social Links
-- Theme Colors
+- Social links
+- Theme colors
 
-Everything can be customized inside
+## ⚡ Performance Goals
 
-```
-index.html
-```
+- Fast first load
+- Smooth animations on mobile
+- Optimized images
+- Clean, readable code
 
-and
+## 🌍 Browser Support
 
-```
-assets/
-```
-
----
-
-# 📈 Performance Goals
-
-✅ Responsive
-
-✅ SEO Friendly
-
-✅ Accessible
-
-✅ Optimized Assets
-
-✅ Smooth Animation
-
-✅ Cross Browser Compatible
-
----
-
-# 🌍 Browser Support
-
-- Chrome
-- Edge
-- Firefox
+- Google Chrome
+- Microsoft Edge
+- Mozilla Firefox
 - Safari
-- Brave
-- Opera
 
----
+## 🤝 Contributing
 
-# 🚀 Future Improvements
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m "Add feature"`
+4. Push: `git push origin feature-name`
+5. Open a Pull Request
 
-- Blog Integration
-- CMS Support
-- Dark / Light Toggle
-- Multi-language
-- Analytics Dashboard
-- Contact API
-- Admin Panel
+## 📄 License
 
----
+This project is available for personal portfolio use.
 
-# 🤝 Contributing
+## 📫 Contact
 
-Contributions are welcome.
-
-1. Fork Repository
-
-2. Create Feature Branch
-
-```bash
-git checkout -b feature-name
-```
-
-3. Commit
-
-```bash
-git commit -m "Added Feature"
-```
-
-4. Push
-
-```bash
-git push origin feature-name
-```
-
-5. Open Pull Request
-
----
-
-# 📄 License
-
-This project is available for personal and commercial portfolio use.
-
----
-
-# 👨‍💻 Developer
-
-**Shajith (Shan)**
-
-### Portfolio
-
-https://shan-portfolioo.netlify.app
-
-### GitHub
-
-https://github.com/shajith23
-
----
-
-<div align="center">
-
-### ⭐ If you like this project, don't forget to Star the Repository!
-
-Made with ❤️ by **Shajith**
-
-</div>
+**Muthu**
+- Email: muthupandi638394@gmail.com
+- Portfolio: https://ms-portfolio-1734.netlify.app/
+- GitHub: https://github.com/msmuthu477
